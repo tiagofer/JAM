@@ -4,4 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TelaKolks.unity
+  - enabled: 1
+    path: Assets/Scenes/TelaInicial.unity
+  - enabled: 1
+    path: Assets/Scenes/TelaPrincipal.unity
+  - enabled: 1
+    path: Assets/Scenes/TelaGameOver.unity
