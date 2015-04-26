@@ -290,7 +290,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 747816377}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &508263937
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,15 +382,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 458894, guid: 0b6c46899270b754283df03c5b73582a, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 179712, guid: 0b6c46899270b754283df03c5b73582a, type: 2}
       propertyPath: m_Name
       value: Ballon
-      objectReference: {fileID: 0}
-    - target: {fileID: 179712, guid: 0b6c46899270b754283df03c5b73582a, type: 2}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b6c46899270b754283df03c5b73582a, type: 2}
@@ -421,9 +417,9 @@ Transform:
   m_LocalPosition: {x: .375600338, y: .254527748, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1854825503}
   - {fileID: 1052941834}
   - {fileID: 453264168}
+  - {fileID: 1854825503}
   - {fileID: 834062659}
   - {fileID: 1581210337}
   m_Father: {fileID: 0}
@@ -445,6 +441,7 @@ MonoBehaviour:
   southEast: {fileID: 834062659}
   centerEast: {fileID: 453264168}
   northEast: {fileID: 1052941834}
+  box: {fileID: 0}
 --- !u!1 &834062658
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,7 +716,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 747816377}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!1 &1223084253
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,7 +962,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 747816377}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!1 &2081672094
 GameObject:
   m_ObjectHideFlags: 0

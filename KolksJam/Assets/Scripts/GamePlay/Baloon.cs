@@ -9,11 +9,14 @@ public class Baloon : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		timeDestroy = Random.Range (1f, 4f);
+		Destroy (obj.GetComponent<BoxCollider2D> (), timeDestroy);
 		Destroy (obj, timeDestroy);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
+
+
 }
