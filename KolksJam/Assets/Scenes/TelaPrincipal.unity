@@ -252,6 +252,50 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &453264166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 453264168}
+  - 114: {fileID: 453264167}
+  m_Layer: 0
+  m_Name: RespawnSouthEastRegion 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &453264167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 453264166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb0adba7639a2342b490d27b4fbede6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloon: {fileID: 0}
+  arrowRight: {fileID: 0}
+  arrowLeft: {fileID: 0}
+  arrowUp: {fileID: 0}
+  arrowDown: {fileID: 0}
+--- !u!4 &453264168
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 453264166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.730000019, y: -.100000001, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1 &508263937
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +423,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
 --- !u!114 &834062660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,7 +435,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eb0adba7639a2342b490d27b4fbede6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objeto: {fileID: 179712, guid: 0b6c46899270b754283df03c5b73582a, type: 2}
+  balloon: {fileID: 0}
+  arrowRight: {fileID: 0}
+  arrowLeft: {fileID: 0}
+  arrowUp: {fileID: 0}
+  arrowDown: {fileID: 0}
 --- !u!1 &874855129
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,7 +523,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
 --- !u!1 &883118194
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +555,7 @@ Transform:
   - {fileID: 402570508}
   - {fileID: 261719421}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
 --- !u!212 &883118196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -589,6 +637,50 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1052941832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1052941834}
+  - 114: {fileID: 1052941833}
+  m_Layer: 0
+  m_Name: RespawnSouthEastRegion 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1052941833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1052941832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb0adba7639a2342b490d27b4fbede6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloon: {fileID: 0}
+  arrowRight: {fileID: 0}
+  arrowLeft: {fileID: 0}
+  arrowUp: {fileID: 0}
+  arrowDown: {fileID: 0}
+--- !u!4 &1052941834
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1052941832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.04999995, y: 1.11000001, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1 &1223084253
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,7 +740,7 @@ Transform:
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
 --- !u!1 &1443766851
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +795,50 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dbdbd1b92cb4a4c4a8b6e58167867165, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1581210335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1581210337}
+  - 114: {fileID: 1581210336}
+  m_Layer: 0
+  m_Name: RespawnSouthEastRegion 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1581210336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581210335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb0adba7639a2342b490d27b4fbede6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balloon: {fileID: 0}
+  arrowRight: {fileID: 0}
+  arrowLeft: {fileID: 0}
+  arrowUp: {fileID: 0}
+  arrowDown: {fileID: 0}
+--- !u!4 &1581210337
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581210335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .109999999, y: -2.81999993, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!1 &1738318828
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,7 +920,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eb0adba7639a2342b490d27b4fbede6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objeto: {fileID: 179712, guid: 0b6c46899270b754283df03c5b73582a, type: 2}
+  balloon: {fileID: 0}
+  arrowRight: {fileID: 0}
+  arrowLeft: {fileID: 0}
+  arrowUp: {fileID: 0}
+  arrowDown: {fileID: 0}
 --- !u!4 &1854825503
 Transform:
   m_ObjectHideFlags: 0
@@ -792,11 +932,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1854825501}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.44000006, y: .819999993, z: -1}
+  m_LocalPosition: {x: -1.34000003, y: 2.16000009, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!1 &2081672094
 GameObject:
   m_ObjectHideFlags: 0
